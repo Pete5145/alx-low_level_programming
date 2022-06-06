@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	 int alphabet;
+	 char alphabet;
 	 scanf("%c", alphabet);
 	 putschar(tolower(alphabet);
 	 
