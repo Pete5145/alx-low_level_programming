@@ -12,6 +12,7 @@ int main(void)
 	for(let = 'a'; let <= 'z'; let++)
 	{
 		putchar(b);
+		putchar('\n');
 		return (0);
 	}
 }
