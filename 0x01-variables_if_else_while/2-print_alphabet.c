@@ -10,8 +10,8 @@
 int main(void)
 {
 	 char alphabet;
+
 	 scanf("%c", alphabet);
-	 putschar(tolower(alphabet);
-	 
-	 return (0);
+	 putchar(tolower(alphabet);
+	return (0);
 }
