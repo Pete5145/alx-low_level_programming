@@ -1,17 +1,17 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
- *
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	 char alphabet;
+	char let;
 
-	 scanf("%c", alphabet);
-	 putchar(tolower(alphabet);
-	return (0);
+	for(let = 'a'; let <= 'z'; let++)
+	{
+		putchar(b);
+		return (0);
+	}
 }
