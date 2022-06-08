@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - prototype function
  *
- * Return: Always 0.
+ * desc-prints 10 times the alphabet, in lowercase
+ *
+ * Return: Always void
  */
-
-
 void print_alphabet(void)
 {
 	char i;
+
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		_putchar(i);
