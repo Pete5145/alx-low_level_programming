@@ -10,18 +10,9 @@
 void print_alphabet(void)
 {
 	char i;
-	int times = 1;
-
-	while (times <= 10)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		i = 'a';
-
-		while (i <= 'z')
-		{
-			_putchar(i);
-			i++;
-		}
-		_putchar('\n');
-		times++;
+		_putchar(i);
 	}
+	_putchar('\n');
 }
