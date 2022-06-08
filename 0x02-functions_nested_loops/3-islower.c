@@ -14,7 +14,7 @@ int _islower(int c)
 	{
 		_putchar(alphabet);
 
-		if (islower(c))
+		if (c >= 'a' && c <= 'z')
 		{
 			return (1);
 		}
