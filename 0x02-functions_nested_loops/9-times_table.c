@@ -16,7 +16,8 @@ void times_table(void)
 		for (j = 0;  j <= 9; i++)
 		{
 			product = i * j;
-			_putchar(product );
+			_putchar(product);
+			_putchar(' ');
 		}
 		_putchar('\n');
 	}
