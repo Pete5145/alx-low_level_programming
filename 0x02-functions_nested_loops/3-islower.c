@@ -8,12 +8,6 @@
  */
 int _islower(int c)
 {
-	char alphabet;
-
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-	{
-		_putchar(alphabet);
-
 		if (c >= 'a' && c <= 'z')
 		{
 			return (1);
@@ -22,5 +16,4 @@ int _islower(int c)
 		{
 			return(0);
 		}
-	}
 }
