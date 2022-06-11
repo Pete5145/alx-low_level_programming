@@ -14,12 +14,12 @@ int main(void)
 		if (a == 9)
 		{
 			putchar(a);
-			putchar('$');
 		}
 		else
 		{
 			putchar(a);
 			putchar(',');
+			putchar(' ');
 		}
 	}
 	return (0);
