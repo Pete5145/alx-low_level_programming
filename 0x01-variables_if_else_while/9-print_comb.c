@@ -13,11 +13,11 @@ int main(void)
 	{
 		if (a == 9)
 		{
-			putchar(a + 48);
+			putchar((a % 10) + '0');
 		}
 		else
 		{
-			putchar(a + 48);
+			putchar((a % 10) + '0');
 			putchar(',');
 			putchar(' ');
 		}
