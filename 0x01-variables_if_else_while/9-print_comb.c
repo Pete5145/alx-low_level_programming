@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (a == 9)
 		{
-			putchar(a);
+			putchar(a + 36);
 		}
 		else
 		{
