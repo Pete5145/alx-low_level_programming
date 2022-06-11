@@ -13,13 +13,13 @@ int main(void)
 	{
 		if (a == 9)
 		{
-			putchar("%d", a);
-			putchar("%c", '$');
+			putchar(a);
+			putchar('$');
 		}
 		else
 		{
-			putchar("%d", a);
-			putchar("%c ", a);
+			putchar(a);
+			putchar(', ');
 		}
 		return (0);
 	}
