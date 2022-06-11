@@ -19,7 +19,7 @@ int main(void)
 		else
 		{
 			putchar(a);
-			putchar(', ');
+			putchar(',');
 		}
 		return (0);
 	}
