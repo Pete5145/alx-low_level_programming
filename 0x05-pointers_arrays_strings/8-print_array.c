@@ -7,7 +7,6 @@
  * @a: The array of integers.
  * @n: The numbers of elements to be printed.
  */
-
 void print_array(int *a, int n)
 {
 	int index;
@@ -17,10 +16,10 @@ void print_array(int *a, int n)
 		printf("%d", a[index]);
 
 		if (index == n - 1)
-		{
 			continue;
-		}
-		printf(",");
+
+		printf(", ");
 	}
+
 	printf("\n");
 }
