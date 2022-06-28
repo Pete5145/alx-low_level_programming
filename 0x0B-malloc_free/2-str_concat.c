@@ -40,7 +40,6 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	i = 0;
-	j = 0;
 	while (s2[i] != '\0')
 	{
 		pStr[j] = s2[i];
