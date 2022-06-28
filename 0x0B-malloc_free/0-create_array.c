@@ -15,7 +15,7 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 	char *memory;
 
-	if (size == NULL)
+	if (size == 0)
 	{
 		return (NULL);
 	}
@@ -29,5 +29,6 @@ char *create_array(unsigned int size, char c)
 		memory[i] = c;
 		i++;
 	}
+
 	return (memory);
 }
