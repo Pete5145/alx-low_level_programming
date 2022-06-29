@@ -10,9 +10,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int product, i, num1, num2;
+	int product, num1, num2;
 
-	if (argc != 3)
+	if (argc == 1)
 	{
 		printf("Error\n");
 		return (1);
