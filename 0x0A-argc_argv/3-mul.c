@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	int product, i;
 
-	if (argc == 1)
+	if (argv[1] && argv[2] == NULL)
 	{
 		printf("Error\n");
 		return (1);
