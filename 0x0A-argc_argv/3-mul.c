@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int product;
+	int product, i;
 
 	if (argc == 1)
 	{
@@ -18,8 +18,11 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		product = argv[1] * argv[2];
-		printf("%d\n", product);
+		for (i = 1; i < 2; i++)
+		{
+			product = argv[i] * argv[i + 1];
+			printf("%d\n", product);
+		}
 	}
 
 	return (0);
