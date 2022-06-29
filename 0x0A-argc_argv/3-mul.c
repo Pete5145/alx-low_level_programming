@@ -16,13 +16,10 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	else
+	for (i = 1; i < 2; i++)
 	{
-		for (i = 1; i < 2; i++)
-		{
-			product = argv[i] * argv[i + 1];
-			printf("%d\n", product);
-		}
+		product = argv[i] * argv[i + 1];
+		printf("%d\n", product);
 	}
 
 	return (0);
