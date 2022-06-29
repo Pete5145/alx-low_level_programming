@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Starting point of the program.
@@ -9,18 +10,18 @@
  */
 int main(int argc, char *argv[])
 {
-	int product, i;
+	int product, i, num1, num2;
 
-	if (argv[1] && argv[2] == NULL)
+	if (argc == 1)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	for (i = 1; i < 2; i++)
-	{
-		product = argv[i] * argv[i + 1];
-		printf("%d\n", product);
-	}
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	product = num1 * num2;
+
+	printf("%d\n", product);
 
 	return (0);
 }
