@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Starting of the program.
@@ -11,8 +12,6 @@ int main(int argc, char *argv[])
 {
 	int i, sum = 0;
 
-	if (argc == 1)
-		printf("0\n");
 	for (i = 0; i < argc; i++)
 	{
 		if (!(argv[i] >= '0') || !(argv[i] <= '9'))
@@ -22,7 +21,7 @@ int main(int argc, char *argv[])
 		}
 		if (argv[i] > 0)
 		{
-			sum += argv[i];
+			sum += atoi(argv[i]);
 		}
 	}
 	return (sum);
