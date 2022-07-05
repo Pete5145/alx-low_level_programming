@@ -1,5 +1,6 @@
 #ifndef DOG_H
 #define DOG_H
+
 /**
  * struct dog - A new type describing a dog.
  * @name: The name of the dog.
@@ -15,6 +16,7 @@ struct dog
 
 /**
  * dog_t - Typedef for struct dog
+ * init_dog - dog and owner function
  */
 typedef struct dog dog_t;
 
